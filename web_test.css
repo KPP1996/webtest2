@@ -1,0 +1,148 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header  {
+    background: url('https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav a   {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.header-info {
+    margin-top: 5rem;
+    /*border: 1px solid red; เอาไว้เช็คในกรอบ */
+    width: 500px;
+}
+
+.header-info h3 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-btn {
+    margin-top: 1rem;
+}
+
+.header-btn input {
+    padding: 0.5rem;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button {
+    padding: 0.5rem;
+    width: 150px;
+    background-color: #00b7ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.about-form {
+    padding: 0 10rem;
+
+}
+.about {
+    text-align: center;
+    padding: 3rem 10rem;
+    /*border: 1px solid red; เอาไว้เช็คในกรอบ */
+}
+
+.about-title {
+    color: #00b7ff;
+    font-size: 2rem;
+}
+
+.about-desc {
+    color: #808080;
+    margin: 1rem 0;
+}
+
+.about-img {
+    padding: -5rem  0;
+}
+
+.pricing {
+    background-color: #00b7ff;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.pricing-info h3 {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.pricing-info p {
+    margin: 1rem 0;
+}
+
+.pricing-table {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-box {
+    background-color: white;
+    color: #333;
+}
+
+.pricing-box-title {
+    background-color: #f3e9e9;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing-box-info {
+    padding: 1rem;
+}
+
+.price-blue {
+    color: #00b7ff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pricing-box-info p {
+    margin: .5rem 0;
+}
+
+.pricing-more-info {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: rgb(22, 219, 22);
+    padding: 1rem;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
